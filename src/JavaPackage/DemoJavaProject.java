@@ -2,12 +2,9 @@ package JavaPackage;
 
 public class DemoJavaProject {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-    System.setProperty("webdriver.chrome.driver","path\\chromedriver.exe");
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello birju");
+	}
 	
-	
-	WebDriver driver = new ChromeDriver();
-			}
-
 }
